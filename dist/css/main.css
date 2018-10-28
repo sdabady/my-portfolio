@@ -247,10 +247,14 @@ main {
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
-    text-align: center; }
+    text-align: center;
+    margin: -50px;
+    margin-top: 1rem; }
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
+  .menu-btn {
+    right: 55px; }
   ul.menu-nav, div.menu-branding {
     float: none;
     width: 100%;
@@ -275,7 +279,11 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
+  padding: 2rem;
   main#home h1 {
     margin-top: 10vh; }
+  .lg-heading {
+    margin-top: 1rem;
+    font-size: 5rem; }
   .projects {
     grid-template-columns: 1fr; } }
