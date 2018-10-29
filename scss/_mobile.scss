@@ -17,16 +17,12 @@
   main {
     align-items: center;
     text-align: center;
-    margin: -40px;
     margin-top: 1rem;
 
     .lg-heading {
       line-height: 1;
       margin-bottom: 1rem;
     }
-  }
-  .menu-btn{
-    right: 55px;
   }
 
   ul.menu-nav, div.menu-branding{
@@ -65,6 +61,7 @@
     'job3';
 
     grid-template-columns: 1fr;
+    
   }
   .projects {
     grid-template-columns: repeat(2, 1fr);
