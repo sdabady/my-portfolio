@@ -18,6 +18,7 @@
     align-items: center;
     text-align: center;
     margin-top: 1rem;
+    
 
     .lg-heading {
       line-height: 1;
@@ -70,9 +71,18 @@
 
 //smartphones
 @include mediaSm {
-  padding: 2rem;
+  
   main#home h1 {
     margin-top: 10vh;
+    
+  }
+  main#home,
+  main#about {
+    padding: 0;
+  }
+
+  main#work {
+    padding: 2rem;
   }
 
   .lg-heading { 
