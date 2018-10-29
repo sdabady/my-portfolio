@@ -278,6 +278,10 @@ main {
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh; }
+  main#contact {
+    padding: 2rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem; }
   main#home,
   main#about {
     padding: 0; }
@@ -287,4 +291,7 @@ main {
     margin-top: 1rem;
     font-size: 5rem; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .boxes div {
+    font-size: 1.5rem;
+    padding: 1rem; } }
