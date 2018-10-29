@@ -284,10 +284,11 @@ main {
     margin-bottom: 2rem; }
   main#home,
   main#about {
-    padding: 0; }
+    padding: 0;
+    padding-top: 2rem; }
   main#work {
     padding: 2rem; }
-  .lg-heading {
+  h1.lg-heading {
     margin-top: 1rem;
     font-size: 5rem; }
   .projects {
